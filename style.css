@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://cdn2.vectorstock.com/i/1000x1000/86/06/cute-animals-at-farm-background-vector-21748606.jpg') no-repeat center center/cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 50vh;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+h1{
+    text-align: center;
+    color: #fffdd1;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    border-radius: 5px;
+    color: #333;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border: 2px;
+    background-color: #fffdd1;
+    font-weight: 600;
+
+}
+
+.btn:hover {
+    opacity: 0.9;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #fffdd1;
+}
+
+.btn:focus {
+    outline: none;
+}
